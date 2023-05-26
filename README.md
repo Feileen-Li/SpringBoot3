@@ -16,3 +16,10 @@ Next, create your entity and repository classes:
 
 * Entity class represents your table in the database.
 * Repository interface is used to manage your entities.
+
+# Test the application:
+
+* gradle test -Dspring.profiles.active=h2em
+* gradlew bootRun -Dspring.profiles.active=mysql
+* mvn test -Dspring.profiles.active=h2em
+* mvn bootRun -Dspring.profiles.active=mysql
